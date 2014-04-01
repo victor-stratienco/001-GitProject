@@ -63,7 +63,9 @@
                             <td>${user.lastName}, ${user.firstName}</td>
                             <td>${user.email}</td>
                             <td>
-                                <form action="delete/${user.id}" method="post"><input type="submit" class="btn btn-danger btn-mini" value="Delete"/></form>
+                                <form action="delete/${user.id}" method="post"><input type="submit"
+                                                                                      class="btn btn-danger btn-mini"
+                                                                                      value="Delete"/></form>
                             </td>
                         </tr>
                     </c:forEach>
